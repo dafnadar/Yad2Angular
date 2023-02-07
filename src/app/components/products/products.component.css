@@ -1,0 +1,41 @@
+img {
+    width: 70px;
+    height: 90px;
+    display: flex;
+    justify-content: center; 
+}
+
+button {
+    margin: 5px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;        
+}
+
+.currency {
+    block-size: 30px;
+    font-size: 10px;
+    border-color: green;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center
+}
+
+.product-wrapper {
+    width: 15%;
+    border: 1px gray solid;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem;    
+}

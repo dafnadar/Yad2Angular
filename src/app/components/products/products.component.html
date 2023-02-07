@@ -1,0 +1,17 @@
+<h1>product List</h1>
+<div class="price">
+    <button class="currency" (click)="param = 'ils'">ILS</button>
+    <button class="currency" (click)="param = 'usd'">USD</button>
+</div> 
+<div class="container">
+<div *ngFor="let p of products" class="product-wrapper">
+    <h2>{{p.title}}</h2>
+    <p>Publish date: {{p.date | date:'dd-MM-yy'}}</p>
+    <p *ngIf="param=='usd'">Price: {{p.price | exchange:param  | currency:'USD' }}</p>
+    <p *ngIf="param=='ils'">Price: {{p.price | exchange:param  | currency:'ILS' }}</p> 
+    <img [src]="p.img" width="30" height="50"/> <br>
+    <button routerLink="/details/{{p.id}}">Details</button>
+    <button routerLink="/" (click)="deleteHandler(p.id)">Buy</button>
+</div>
+</div>
+

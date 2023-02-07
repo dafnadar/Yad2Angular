@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Bikes",
+      "date": "8/31/22",
+      "price": 150,
+      "description": "pink bikes for girls, size 16.",
+      "city": "Tel-Aviv",
+      "phone": "050-2436669",
+      "img": "https://www.extremetoys.co.il/wp-content/uploads/2019/04/%D7%94%D7%9C%D7%95%D7%95%D7%95%D7%95%D7%95%D7%95%D7%95%D7%95%D7%95.jpg"
+    },
+    {
+      "id": 2,
+      "title": "T-Shirt",
+      "date": "1.5.22",
+      "price": 30,
+      "description": "חולצה חדשה לגברים צבע אפור. מידה L",
+      "img": "https://m.media-amazon.com/images/I/51KiVU-89ZL._AC_UL1001_.jpg",
+      "city": "Ashdod",
+      "phone": "0526665554"
+    },
+    {
+      "id": 3,
+      "title": "מנשא תאומים",
+      "date": "3.16.22",
+      "price": 300,
+      "description": "מנשא מיני-מאנקי לתאומים. היה בשימוש רק פעם אחת.",
+      "img": "https://2wins.co.il/wp-content/uploads/2018/05/Minimonkey_2-300x300.jpg",
+      "city": "Rehovot",
+      "phone": "052-2222333"
+    },
+    {
+      "id": 4,
+      "title": "doll",
+      "date": "3.16.22",
+      "price": 50,
+      "description": "מנשא מיני-מאנקי לתאומים. היה בשימוש רק פעם אחת.",
+      "img": "https://cdn1.mulberrybushtoys.co.uk/content/images/thumbs/0010656_hattie-doll-small_450.jpeg",
+      "city": "Rehovot",
+      "phone": "0522222333"
+    },
+    {
+      "id": 5,
+      "title": "ספר",
+      "date": "3.16.22",
+      "price": 300,
+      "description": "דירה להשכיר, מצב מעולה!",
+      "img": "https://blog.nli.org.il/wp-content/uploads/2017/02/Dira-550x413.jpg",
+      "city": "Rehovot",
+      "phone": "0522222333"
+    },
+    {
+      "id": 6,
+      "title": "sofa",
+      "date": "3.16.22",
+      "price": 300,
+      "description": "amazing blue sofa!",
+      "img": "https://www.scs.co.uk/on/demandware.static/-/Sites-master-catalog-scs/default/dw459a5bc3/images/large/large_L054224_1.jpg",
+      "city": "Ramat-Gan",
+      "phone": "052-2222333"
+    },
+    {
+      "id": 7,
+      "title": "knife",
+      "date": "2022-12-05T14:11:54.156Z",
+      "img": "https://www.buckknives.com/images/products/hero/0931FAM01_1.jpg",
+      "price": "55",
+      "description": "bla.. bla.. bla..",
+      "city": "Rehovot",
+      "phone": "052-2222333"
+    },
+    {
+      "id": 9,
+      "title": "חתול",
+      "date": "2022-12-05T16:13:40.818Z",
+      "img": "https://qtn.co.il/printable-drawings/wp-content/uploads/2021/06/1-1-e1622569882829.png",
+      "price": "0",
+      "description": "מהמםםםםםםםםםם",
+      "city": "",
+      "phone": "0502436669"
+    },
+    {
+      "id": 11,
+      "title": "g",
+      "date": "2022-12-05T16:54:10.552Z",
+      "img": "https://qtn.co.il/printable-drawings/wp-content/uploads/2021/06/1-1-e1622569882829.png",
+      "description": "sdf dfsf sdfsfd",
+      "city": "",
+      "phone": "0502436669",
+      "price": 130
+    },
+    {
+      "id": 12,
+      "title": "חדש",
+      "date": "2022-12-05T18:31:44.092Z",
+      "img": "",
+      "price": 30,
+      "description": "sdf dfsf sdfsfd",
+      "city": "רמלה",
+      "phone": "089969968"
+    }
+  ]
+}

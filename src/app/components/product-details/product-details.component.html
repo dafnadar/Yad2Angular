@@ -1,0 +1,13 @@
+<h2>{{product.title}}</h2>
+<p>Description: {{product.description}}</p>
+<img [src]="product.img" />
+<div class="price">
+    <p *ngIf="param=='usd'">Price: {{product.price | exchange:param  | currency:'USD' }}</p>
+    <p *ngIf="param=='ils'">Price: {{product.price | exchange:param  | currency:'ILS' }}</p>
+    <button class="currency" (click)="param = 'ils'">ILS</button>
+    <button class="currency" (click)="param = 'usd'">USD</button>  
+</div>
+<p>City: {{product.city}}</p>
+<p>Phone: {{product.phone}}</p>
+<button routerLink="/" (click)="deleteHandler(product.id)">Buy</button>
+<a href="/">Go back to list...</a>

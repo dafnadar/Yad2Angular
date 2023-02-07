@@ -1,0 +1,18 @@
+img {
+    width: 80px;
+    height: 100px;
+}
+
+a {
+    padding: 10px;
+}
+
+.price {
+    display: flex;    
+}
+
+.currency {
+    block-size: 30px;
+    font-size: 10px;
+    border-color: green;
+}
