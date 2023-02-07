@@ -1,6 +1,7 @@
 # Yad2Store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+Important!! build this project in order to use it - "npm i" in cli.
 
 ## Development server
 
